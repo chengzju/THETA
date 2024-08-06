@@ -1,7 +1,13 @@
 # THETA
 
-# Demo Code of THETA
-## Requirements
+## Model preparation
+    download BERT-base-uncased model to ./bert
+
+## Data preparation
+    download different datasets to ./data
+
+## Demo Code of THETA
+### Requirements
 
 * python==3.6.2
 * apex==0.1
@@ -13,7 +19,7 @@
 * nltk==3.5
 * scipy==1.5.4
 
-## XML Experiments
+### XML Experiments
 
 XML experiments in paper can be run directly such as: 
 ```bash
